@@ -1,0 +1,16 @@
+How my code works:
+
+The first function that is called initializes a list of arrays that hold all the information about our products. The data is pulled from a csv so can be as small 
+large as we like.
+
+The next function displays the widget names. It asks for the user to select a number corresponding with the widget they would like to purchase. Another prompt then 
+asks them what quantity of that product they want. A check is made to make sure we don't go over a pre-defined cart size, and asks for input again if they go over. 
+
+The next function adds those items to our cart and adds them to our cart array. It then tells us what our subtotal currently is.
+
+Completion of this function leads back to our menu function that then asks if they want to continue shopping. Selecting no triggers the final checkout function,
+while selecting yes allows them to select more products/quantities until they select no.
+
+The final checkout function loops through all our product codes and checks to see if they exist in our basket. If they do, then we check to see if the product code
+has a discount associated with it. If it does, then we apply the perspective discounts on the elligible items, and apply full price to the rest. After we are done
+looping through all our items, we check the total to see what our shipping cost will be, then add the total up and let the user know what it is. 
