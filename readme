@@ -1,7 +1,7 @@
 How my code works:
 
 The first function that is called initializes a list of arrays that hold all the information about our products. The data is pulled from a csv so can be as small 
-large as we like.
+or as large as we like.
 
 The next function displays the widget names. It asks for the user to select a number corresponding with the widget they would like to purchase. Another prompt then 
 asks them what quantity of that product they want. A check is made to make sure we don't go over a pre-defined cart size, and asks for input again if they go over. 
